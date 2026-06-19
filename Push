@@ -1,0 +1,5 @@
+# Create remote repository
+gh repo create voucher-predictor --public
+
+# Push to GitHub
+git push -u origin main
