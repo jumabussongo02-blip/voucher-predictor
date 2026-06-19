@@ -1,0 +1,10 @@
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Add files to Git
+git add .
+git commit -m "Initial commit"
