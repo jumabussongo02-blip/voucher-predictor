@@ -1,0 +1,12 @@
+[Unit]
+Description=Voucher Prediction Service
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/path/to/voucher-predictor
+ExecStart=/path/to/voucher-predictor/venv/bin/python app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
