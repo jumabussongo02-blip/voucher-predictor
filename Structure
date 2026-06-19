@@ -1,0 +1,6 @@
+# Create project directory
+mkdir voucher-predictor
+cd voucher-predictor
+
+# Initialize Git repo
+git init
