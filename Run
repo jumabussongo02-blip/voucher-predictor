@@ -1,0 +1,14 @@
+# Activate virtual environment
+source venv/bin/activate
+
+# Run data collection
+python scripts/collect_data.py
+
+# Train model
+python scripts/train_model.py
+
+# Generate codes
+python scripts/generate_codes.py
+
+# Start API
+python app.py
